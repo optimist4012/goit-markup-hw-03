@@ -1,0 +1,200 @@
+:root {
+    --title-color:#2E2F42;
+    --logo-color: #4D5AE5;
+    --white-color: #FFFFFF;
+    --text-color: #F4F4FD;
+    --background-color: #404BBF;
+    --adress-color: #434455;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--white-color);
+    color: var(--adress-color);
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+/* Header */
+.header {
+}
+.header-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-color);
+}
+.header-web {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+.header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+/* Navigation */
+.header-link:hover, .header-link:focus {
+    color:var(--background-color);
+}
+.header-address{
+    font-style: normal;
+}
+.header-address-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--adress-color);
+}
+.header-address-link:hover, .header-address-link:focus {
+    color: var(--background-color);
+}
+/* Hero */
+.studio-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white-color);
+    background: var(--logo-color);
+    cursor: pointer;
+}
+.studio-btn:hover, .studio-btn:focus {
+    background: var(--background-color);
+}
+.hero {
+    background: var(--title-color);
+}
+.hero-text {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--white-color);
+}
+/* Criteria */
+.criteria-text-top {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+.criteria-text-bottom {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* Works */
+.works {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-color);
+}
+/* Our Team */
+.ourteam {
+    background: var(--text-color);
+}
+.ourteam-text-top {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-color);
+}
+.ourteam-item {
+    background: var(--white-color);
+}
+.ourteam-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+.ourteam-text-bottom {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+/* Footer */
+.footer {
+    background: var(--title-color);
+}
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-color);
+}
+.footer-web {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+/* Fitters */
+.fitters-button-list {
+    justify-content: center;
+}
+.fitters-button {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--logo-color);
+    cursor: pointer;
+}
+.fitters-button:hover,
+.fitters-button:focus {
+    background-color: var(--background-color);
+    color: var(--white-color);
+}
+.fitters-text-top {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+.fitters-text-bottom {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--adress-color);
+}
