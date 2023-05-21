@@ -31,14 +31,21 @@ img {
 .header {
     display: flex;
     padding-top: 24px;
-    padding-bottom: 24px; 
+    padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc
+}
+.container-header {
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 .header-navigation {
     display: flex;
     align-items: center;
 }
 .header-item {
-    margin-right: 40px;
+    padding: 24px 0;
 }
 .header-item:last-child {
     margin-right: 0;
@@ -50,7 +57,6 @@ img {
     margin: 0 auto;
 }
 .header-logo {
-    margin-left: 156px;
     margin-right: 76px;
     display: flex;
     font-family: 'Raleway', sans-serif;
@@ -79,7 +85,7 @@ img {
 }
 .header-list{
     display: flex;
-    align-items: center;
+    gap: 40px;
 }
 /* Navigation */
 .header-link:hover, .header-link:focus {
@@ -87,7 +93,7 @@ img {
 }
 .header-address-list {
     display: flex;
-    align-items: center;
+    gap: 40px;
 }
 .header-address{
     margin-left: auto;
@@ -108,6 +114,7 @@ img {
 }
 /* Hero */
 .hero {
+    padding: 188px 0;
     min-height: 600px;
     background: var(--title-color);
     padding-top: 188px;
@@ -122,10 +129,12 @@ img {
     margin: 0 auto;
 }
 .studio-btn {
+    display: block;
     margin: 0 auto;
     margin-top: 48px;
-    width: 169px;
-    min-height: 56px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -143,8 +152,7 @@ img {
 
 /* Criteria */
 .criteria {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0
 }
 .criteria-title {
     margin-bottom: 8px;
@@ -152,12 +160,12 @@ img {
 .criteria-list {
     display: flex;
     align-items: flex-start;
+    gap: 24px;
 }
 .criteria-item {
     display: flex;
     flex-direction: column;
-    gap: 8px;
-    margin-right: 24px;
+    width: calc((100% - 72px) / 4);
 }
 .criteria-text-top {
     font-weight: 500;
@@ -165,6 +173,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--title-color);
+    margin-bottom: 8px;
 }
 .criteria-text-bottom {
     font-size: 16px;
@@ -173,7 +182,10 @@ img {
 }
 /* Works */
 .works {
-    padding-bottom: 72px;
+    padding-bottom: 120px;
+}
+.works-text {
+    margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -216,8 +228,8 @@ img {
 }
 .ourteam-item {
     border-radius: 0px 0px 4px 4px;
-    width: calc((100% - 72px) / 4);
     background: var(--white-color);
+    width: calc((100% - 72px) / 4);
 }
 .ourteam-text {
     margin-bottom: 8px;
