@@ -171,10 +171,6 @@ img {
 .criteria {
     padding: 120px 0
 }
-.criteria-title {
-    margin-bottom: 8px;
-    visibility: hidden;
-}
 .criteria-list {
     display: flex;
     align-items: flex-start;
