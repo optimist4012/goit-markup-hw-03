@@ -173,7 +173,7 @@ img {
 }
 /* Works */
 .works {
-    padding-bottom: 120px;
+    padding-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -183,17 +183,23 @@ img {
     color: var(--title-color);
 }
 .works-list {
+    padding-bottom: 120px;
     display: flex;
     gap: 24px;
     padding-bottom: 120px;
 }
+.works-list-item {
+    width: calc((100%-48px)/3);
+}
 /* Our Team */
 .ourteam {
     background: var(--text-color);
-    /* margin-top: 120px; */
+    padding: 120px 0;
+}
+.container-ourteam {
+    padding: 32px 16px;
 }
 .ourteam-text-top {
-    padding-top: 120px;
     margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
@@ -207,12 +213,14 @@ img {
     gap: 24px;
     padding-bottom: 120px;
     justify-content: center;
-    border-radius: 0px 0px 4px 4px;
 }
 .ourteam-item {
+    border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4)
     background: var(--white-color);
 }
 .ourteam-text {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -235,6 +243,8 @@ img {
     background: var(--title-color);
 }
 .footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -260,7 +270,6 @@ img {
     color: var(--text-color);
     margin-left: 156px;
     max-width: 264px;
-    margin-top: 16px;
 }
 /* Fitters */
 .fitters-button-list {
