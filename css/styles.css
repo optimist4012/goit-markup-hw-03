@@ -173,6 +173,7 @@ img {
 }
 .criteria-title {
     margin-bottom: 8px;
+    visibility: hidden;
 }
 .criteria-list {
     display: flex;
