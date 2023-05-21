@@ -252,7 +252,6 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--logo-color);
-    margin-left: 156px;
 }
 .footer-web {
     font-family: 'Raleway', sans-serif;
@@ -268,7 +267,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color);
-    margin-left: 156px;
     max-width: 264px;
 }
 /* Fitters */
