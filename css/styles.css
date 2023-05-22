@@ -44,15 +44,11 @@ img {
 }
 /* Header */
 .header {
-    display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc
 }
 .container-header {
     display: flex;
-    margin: 0 auto;
-    padding: 0 15px;
+    align-items: center;
 }
 .header-navigation {
     display: flex;
@@ -72,7 +68,6 @@ img {
 }
 .header-logo {
     margin-right: 76px;
-    display: flex;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -97,6 +92,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--title-color);
     padding: 24px 0;
+    display: block;
 }
 .header-list{
     display: flex;
@@ -117,8 +113,6 @@ img {
     
 }
 .header-address-item {
-    display: flex;
-    padding: 24px 0
 }
 .header-address-link {
     font-size: 16px;
@@ -177,8 +171,6 @@ img {
     gap: 24px;
 }
 .criteria-item {
-    display: flex;
-    flex-direction: column;
     width: calc((100% - 72px) / 4);
 }
 .criteria-text-top {
@@ -212,10 +204,8 @@ img {
     color: var(--title-color);
 }
 .works-list {
-    padding-bottom: 120px;
     display: flex;
     gap: 24px;
-    padding-bottom: 120px;
 }
 .works-list-item {
     width: calc((100%-48px)/3);
@@ -224,9 +214,6 @@ img {
 .ourteam {
     background: var(--text-color);
     padding: 120px 0;
-}
-.container-ourteam {
-    padding: 32px 16px;
 }
 .ourteam-text-top {
     margin-bottom: 72px;
@@ -240,8 +227,6 @@ img {
 .ourteam-list {
     display: flex;
     gap: 24px;
-    padding-bottom: 120px;
-    justify-content: center;
 }
 .ourteam-item {
     width: calc((100% - 72px) / 4);
@@ -256,14 +241,12 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--title-color);
-    margin-top: 32px;
 }
 .ourteam-text-bottom {
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
-    margin-bottom: 32px;
 }
 /* Footer */
 .footer {
@@ -302,9 +285,6 @@ img {
 .fitters {
     padding-top: 96px;
     padding-bottom: 120px;
-}
-.container-fitters {
-    padding: 96px 0 120px;
 }
 .fitters-button-list {
     display: flex;
